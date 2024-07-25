@@ -34,7 +34,9 @@
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </div>
-        <div class="saved">
+        
+    </form>
+    <div class="saved">
             <h1>Saved Information</h1>
             <?php
             $file = fopen('info.txt', 'r');
@@ -46,5 +48,4 @@
             }
             ?>
         </div>
-    </form>
 </body>
